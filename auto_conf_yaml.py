@@ -7,6 +7,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 dce_username = ''
 dce_password = ''
 dce_server = ''
+
 def getAllDevices(dce_server):
     """Gets All Devices For The Provided DCE Server."""
     auth = HTTPBasicAuth(dce_username, dce_password)
